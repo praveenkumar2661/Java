@@ -2,8 +2,8 @@ package MahakaviDoubts;
 
 import java.util.Scanner;
 
-public class MemoryAllocated {
-
+public class MemoryAllocated 
+{
 	public static void main(String[] args) 
 	{
 		Scanner sc = new Scanner(System.in);

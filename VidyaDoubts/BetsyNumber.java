@@ -1,10 +1,14 @@
 package VidyaDoubts;
+
+import java.util.Scanner;
+
 public class BetsyNumber 
 {
 	public static void main(String[] args) 
 	{
-		int start = 100;
-		int end = 500;
+		Scanner sc = new Scanner(System.in);
+		int start = sc.nextInt();
+		int end = sc.nextInt();
 		int ans = 0;
 		for (int i = start; i < end; i++) 
 		{
