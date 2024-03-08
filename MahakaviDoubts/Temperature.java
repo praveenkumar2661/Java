@@ -8,7 +8,6 @@ public class Temperature
 	{
 		Scanner sc = new Scanner(System.in);
 		int num = sc.nextInt();
-		//int[] arr = new int[num];
 		int count = 0;
 		for (int i = 0; i < num; i++) 
 		{
