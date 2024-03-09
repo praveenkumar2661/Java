@@ -1,8 +1,6 @@
 package VidyaDoubts;
-
 import java.util.HashSet;
 import java.util.Scanner;
-
 public class Game 
 {
 	public static void main(String[] args)
@@ -22,7 +20,8 @@ public class Game
 		HashSet<Character> b_str = new HashSet<Character>();
 		for (int i = 0; i < b.length(); i++)
 			b_str.add(b.charAt(i));
-		for (Character character : b_str) {
+		for (Character character : b_str)
+		{
 			if(a_str.contains(character))
 				res++;
 		}
