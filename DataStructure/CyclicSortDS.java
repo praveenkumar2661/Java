@@ -8,7 +8,9 @@ public class CyclicSortDS
 	{
 		int[] arr = {3,2,1};
 		cyclicSort(arr);
-		System.out.println(Arrays.toString(arr));
+		for (int i : arr) 
+			System.out.print(i+" ");
+		
 	}
 	
 	private static void cyclicSort(int[] arr)
