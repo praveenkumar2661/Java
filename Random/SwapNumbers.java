@@ -2,6 +2,7 @@ package Random;
 
 public class SwapNumbers 
 {
+	
 	public static void main(String[] args)
 	{
 		int num1 = 10;
@@ -9,6 +10,7 @@ public class SwapNumbers
 		use3Variables(num1, num2);
 		useAddSwap(num1,num2);
 		useMultiplySwap(num1,num2);
+		
 		
 	}
 
