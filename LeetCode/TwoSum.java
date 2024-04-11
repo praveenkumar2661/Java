@@ -1,10 +1,10 @@
 package LeetCode;
 
-import java.util.Arrays;
+
 
 public class TwoSum 
 {
-	public static int[] twoSum(int[] nums, int target)
+	public int[] twoSum(int[] nums, int target)
     {
 		int a = 0, b = 0;
 		for (int i = 0; i < nums.length; i++) 
@@ -20,10 +20,4 @@ public class TwoSum
 		}
         return new int[] {a,b};
     }
-	public static void main(String[] args) 
-	{
-		int[] arr = {3,3};
-		int target = 6;
-		System.out.println(Arrays.toString(twoSum(arr,target)));
-	}
 }

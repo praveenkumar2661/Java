@@ -2,10 +2,7 @@ package LeetCode;
 
 public class PalindromeNumber 
 {
-	public static void main(String[] args) {
-		System.out.println(isPalindrome(-121));
-	}
-	public static boolean isPalindrome(int x) 
+	public boolean isPalindrome(int x) 
     {
        String s = Integer.toString(x);
        String ans = "";

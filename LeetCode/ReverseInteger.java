@@ -1,8 +1,8 @@
 package LeetCode;
 
-public class ReverseNumber 
+public class ReverseInteger
 {
-	 public static int reverse(int x) 
+	 public int reverse(int x) 
 	    {
 		 int ans = 0;
 	        while(x!=0)
@@ -16,7 +16,4 @@ public class ReverseNumber
 	        }
 	        return ans;
 	    }
-	 public static void main(String[] args) {
-		System.out.println(reverse(1534236469));
-	}
 }
