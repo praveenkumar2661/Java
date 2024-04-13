@@ -20,7 +20,7 @@ public class ValidPalindrome {
 		}
         System.out.println(b);
         System.out.println(a);
-      
+        System.out.println(Math.pow(0.00001, 2147483647));
 		if(a.equals(c))
 			return true;
 		else

@@ -3,7 +3,7 @@ import java.util.Arrays;
 
 public class MedianofTwoSortedArray
 {
-	public static double findMedianSortedArrays(int[] nums1, int[] nums2) 
+	public double findMedianSortedArrays(int[] nums1, int[] nums2) 
     {
 		 int[] arr = new int[(nums1.length+nums2.length)];
 	     int y = 0;
@@ -19,9 +19,4 @@ public class MedianofTwoSortedArray
 	  		return ((arr[arr.length/2])+(arr[(arr.length/2)-1]))/2.0; 
 	    }
 		
-	public static void main(String[] args) {
-		int[] nums1 = {0,0,0,0,0};
-		int[] nums2 = {-1,0,0,0,0,0,-1};
-		System.out.println(findMedianSortedArrays(nums1, nums2));
-	}
 }
