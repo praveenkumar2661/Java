@@ -8,7 +8,6 @@ public class BubbleSortDS
 	{
 		 int[] unsortedArray = {5, 2, 8, 1, 9, 4, 6};
 		 bubbleSort(unsortedArray);
-		 Arrays.sort(unsortedArray);
 		 System.out.println(Arrays.toString(unsortedArray));
 
 	}
