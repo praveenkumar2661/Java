@@ -6,7 +6,7 @@ public class CyclicSortDS
 {
 	public static void main(String[] args)
 	{
-		int[] arr = {3,2,1};
+		int[] arr = {8,3,2,1,4,7,6,5};
 		cyclicSort(arr);
 		for (int i : arr) 
 			System.out.print(i+" ");
@@ -15,14 +15,12 @@ public class CyclicSortDS
 	
 	private static void cyclicSort(int[] arr)
 	{
-		int i = 0;
-		while(i < arr.length)
+		for(int i = 0; i < arr.length;i++)
 		{
-			int correct = arr[i]-1;
-			if(arr[i] != arr[correct])
+			int correct = arr[i] -1;
+			if(arr[i] != correct)
 				swap(arr, i, correct);
-			else
-				i++;
+			
 		}
 	}
 

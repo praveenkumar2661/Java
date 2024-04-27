@@ -1,7 +1,5 @@
 package Random;
 
-import java.util.Arrays;
-import java.util.LinkedHashSet;
 
 public class SecondLargest 
 {
@@ -19,6 +17,6 @@ public class SecondLargest
 			else if(i>smax && i!=fmax)
 				smax=i;
 		}
-		System.out.println(fmax+" dfg "+smax);
+		System.out.println(smax);
 	}
 }
